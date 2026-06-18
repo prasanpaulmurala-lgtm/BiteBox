@@ -4,8 +4,46 @@
     box-sizing: border-box;
 }
 
-nav{
-    display:;
+nav div{
+    display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: black;
+    padding: 15px 40px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+nav h2{
+    color:white;
+}
+
+nav a:hover{
+    color: red;
+}
+
+nav li:last-child a {
+    background-color:red;
+    padding: 6px 12px;
+    border-radius: 5px;
+}
+
+nav li:last-child a:hover{
+    background-color:#cc0000;
+    color: black;
+}
+
+.active {
+    color: red;
+    font-weight: bold;
+    border-bottom: 2px solid red;
 }
