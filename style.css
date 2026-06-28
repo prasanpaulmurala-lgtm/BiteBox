@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Jim Nightshade", cursive;
+    font-size: 20px;
 }
 
 nav div{
@@ -47,3 +49,8 @@ nav li:last-child a:hover{
     font-weight: bold;
     border-bottom: 2px solid red;
 }
+
+img{
+    width: 180px;
+}
+
