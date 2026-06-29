@@ -14,7 +14,7 @@ nav div{
     padding: 15px 40px;
 }
 
-ul{
+nav ul{
     display: flex;
     list-style: none;
     gap: 20px;
