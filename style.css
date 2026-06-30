@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Jim Nightshade", cursive;
-    font-size: 20px;
 }
 
 nav div{
@@ -12,6 +11,7 @@ nav div{
     align-items: center;
     background-color: black;
     padding: 15px 40px;
+    font-size: 20px;
 }
 
 nav ul{
@@ -44,13 +44,40 @@ nav li:last-child a:hover{
     color: black;
 }
 
-.active {
-    color: red;
+/* .active {
+    color: red; 
     font-weight: bold;
     border-bottom: 2px solid red;
-}
+} */
 
 img{
     width: 180px;
 }
 
+.hero{
+    height: 91vh;
+    background-image: url(./images/Background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+h1{
+    font-size: 70px;
+}
+.hero-section{
+    color: white;
+}
+.hero-section p{
+    font-size: 30px;
+}
+button{
+    font-size: 25px;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: red;
+    padding: 10px 20px;
+    color: white;
+}
