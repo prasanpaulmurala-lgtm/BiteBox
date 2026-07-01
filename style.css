@@ -58,7 +58,7 @@ img{
     align-items: center;
 
 }
-h1{
+.hero-section h1{
     font-size: 70px;
 }
 .hero-section{
@@ -86,14 +86,14 @@ button{
 }
 
 .video-text h2{
-    font-size: 32px;
+    font-size: 42px;
 }
 
 .video-text{
     flex: 1;
 }
 .video-text p{
-    font-size: 18px;
+    font-size: 28px;
     color: grey;
 }
 video{
@@ -112,12 +112,12 @@ video{
 }
 
 .about h2{
-    font-size: 32px;
+    font-size: 42px;
     color: rgba(255, 0, 0, 0.615);
 }
 
 .about p{
-    font-size: 18px;
+    font-size: 28px;
     color: grey;
     line-height: 1.6;
 }
