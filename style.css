@@ -72,7 +72,7 @@ img{
 .hero-section p{
     font-size: 40px;
 }
-button{
+.hero-section button{
     font-size: 30px;
     border-radius: 10px;
     margin-top: 10px;
@@ -80,7 +80,9 @@ button{
     padding: 10px 20px;
     color: white;
 }
-
+.hero-section button:hover{
+    background-color: darkred;
+}
 .video-section{
     display: flex;
     align-items: center;
