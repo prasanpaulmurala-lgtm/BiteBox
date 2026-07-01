@@ -44,6 +44,11 @@ nav li:last-child a:hover{
     color: black;
 }
 
+.active{
+    color: red;
+    text-decoration: underline;
+}
+
 img{
     width: 180px;
 }
