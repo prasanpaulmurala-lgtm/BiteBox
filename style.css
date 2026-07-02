@@ -102,7 +102,7 @@ img{
 .video-text p{
     font-size: 28px;
     color: grey;
-}
+} 
 video{
     width: 100%;
     height: 100%;
@@ -163,6 +163,7 @@ video{
     border-radius: 5px;
     padding: 5px 10px;
     cursor: pointer;
+    border-color: red;
 }
 
 .menu-card button:hover{
