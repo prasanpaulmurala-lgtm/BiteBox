@@ -213,3 +213,84 @@ header{
     top: 0;
     z-index: 1000;
 }
+table{
+    margin-top: 70px;
+    justify-self: center;
+    width: 70%;
+    border-collapse: collapse;
+    
+}
+.radius{
+    border-top-left-radius: 10px;
+}
+.right{
+    border-top-right-radius: 10px;
+}
+ tr,td, th{
+    padding: 20px;
+    text-align: center;
+}
+thead{
+    background-color: red;
+    font-size: 22px;
+    color: white;
+}
+.item{
+    display: flex;
+     gap: 20px;
+}
+.item img{
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+}
+.cart-img{
+    align-self: center;
+    text-align: center;
+}
+tbody tr{
+    border-bottom: 1px solid #ddd;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.button button{
+    padding: 2px 10px; 
+    background-color: red;
+    border-radius: 5px;
+    font-size: 25px;
+    border-color: red;
+    color: white;
+}
+.button button:hover{
+    background-color: darkred;
+}
+
+.remove{
+    font-size: 22px;
+    padding: 2px 8px;
+    width: 50px;
+    border-radius: 10px;
+    border-color: red;
+    background-color: red;
+    color: white;
+}
+
+.total th{
+    font-size: 22px;
+}
+.total button{
+    background-color: red;
+    border-color: red;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px;
+    width: 120px;
+}
+.total button:hover{
+    background-color: darkred;
+}
