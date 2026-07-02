@@ -212,37 +212,3 @@ header{
     top: 0;
     z-index: 1000;
 }
-
-table{
-    width: 80%;
-    border-collapse: collapse;
-    background-color: #fff;
-    border-radius: 20px;
-    margin: auto;
-}
-
-thead{
-    background-color: red;
-    color: white;
-}
-th, td{
-    font-size: 20px;
-    padding: 20px;
-    text-align: center;
-}
-
-tbody tr{
-    border-bottom: 1px solid #ddd;
-}
-
-.item{
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    border: 2px solid;
-}
-
-.item image{
-    width: 70px;
-    height: 70px;
-}
