@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Jim Nightshade", cursive;
+    font-family: "Google Sans Flex", sans-serif;
 }
 
 nav div{
@@ -64,16 +64,16 @@ img{
 
 }
 .hero-section h1{
-    font-size: 90px;
+    font-size: 60px;
 }
 .hero-section{
     color: white;
 }
 .hero-section p{
-    font-size: 40px;
+    font-size: 30px;
 }
 .hero-section button{
-    font-size: 30px;
+    font-size: 20px;
     border-radius: 10px;
     margin-top: 10px;
     background-color: red;
@@ -93,14 +93,14 @@ img{
 }
 
 .video-text h2{
-    font-size: 42px;
+    font-size: 32px;
 }
 
 .video-text{
     flex: 1;
 }
 .video-text p{
-    font-size: 28px;
+    font-size: 18px;
     color: grey;
 } 
 video{
@@ -119,12 +119,12 @@ video{
 }
 
 .about h2{
-    font-size: 42px;
+    font-size: 32px;
     color: rgba(255, 0, 0, 0.615);
 }
 
 .about p{
-    font-size: 28px;
+    font-size: 18px;
     color: grey;
     line-height: 1.6;
 }
@@ -147,10 +147,10 @@ video{
     border-radius: 10px;
 }
 .menu-card h3{
-    font-size: 28px;
+    font-size: 26px;
 }
 .menu-card p,span{
-    font-size: 24px;
+    font-size: 22px;
 }
 .menu-card img{
     width: 100%;
