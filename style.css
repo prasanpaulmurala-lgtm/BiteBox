@@ -278,6 +278,9 @@ tbody tr{
     background-color: red;
     color: white;
 }
+.remove:hover{
+    background-color: darkred;
+}
 
 .total th{
     font-size: 22px;
