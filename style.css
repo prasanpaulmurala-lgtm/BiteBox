@@ -134,7 +134,7 @@ video{
     height: 400px;
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(4, 400px);
+    grid-template-columns: repeat(4, 25%);
     gap: 20px;
     padding: 10px;
     justify-content: center;
@@ -154,7 +154,7 @@ video{
     font-size: 22px;
 }
 .menu-card img{
-    width: 60%;
+    width: 100%;
 }
 
 .menu-card button{
