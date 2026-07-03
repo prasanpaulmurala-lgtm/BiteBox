@@ -134,7 +134,7 @@ video{
     height: 400px;
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(4, 25%);
+    grid-template-columns: repeat(4, 350px);
     gap: 20px;
     padding: 10px;
     justify-content: center;
