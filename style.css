@@ -138,6 +138,7 @@ video{
     padding: 10px;
     justify-content: center;
     text-align: center;
+    overflow-x: hidden;
 }
 
 .menu-card{
