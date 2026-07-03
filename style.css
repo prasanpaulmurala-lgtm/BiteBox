@@ -139,7 +139,6 @@ video{
     padding: 10px;
     justify-content: center;
     text-align: center;
-    overflow-x: hidden;
 }
 
 .menu-card{
@@ -155,7 +154,7 @@ video{
     font-size: 22px;
 }
 .menu-card img{
-    width: 80%;
+    width: 70%;
 }
 
 .menu-card button{
