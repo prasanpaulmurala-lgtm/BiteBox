@@ -129,32 +129,28 @@ video{
     line-height: 1.6;
 }
 
-.menu-conatiner{
-    margin-top: 40px;
-    height: 400px;
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(4, 350px);
-    gap: 20px;
-    padding: 10px;
-    justify-content: center;
-    text-align: center;
-}
-
 .menu-card{
     padding: 20px;
     background-color: #fff;
-    box-shadow: 0px 0px 6px grey;
+    box-shadow: 0px 0px 6px 4px grey;
     border-radius: 10px;
+}
+.menu-img{
+    width: 100%;
+    height: 70%;
+    cursor: pointer;
 }
 .menu-card h3{
     font-size: 26px;
+    margin-top: 10px;
 }
 .menu-card p,span{
     font-size: 22px;
 }
 .menu-card img{
     width: 100%;
+    height: 100%;
+    cursor: pointer;
 }
 
 .menu-card button{
@@ -170,13 +166,29 @@ video{
 .menu-card button:hover{
     background-color: darkred;
 }
-
-.categories{
+@media screen {
+    .menu-conatiner{
+    height: 400px;
+    width: 100%;
+     display: grid;
+    grid-template-columns: repeat(4, 400px);
+    gap: 20px;
+    padding: 10px;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-bottom: 100px;
+    }
+    .menu-img:hover{
+         transform: scale(1.1);
+    }
+    .cat-categories{
     width: 100%;
     display: flex;
     gap: 70px;
     padding: 20px;
     justify-content: center;
+    margin-bottom: 100px;
+}
 }
 
 .cat-icon{
@@ -208,7 +220,9 @@ video{
 .cat-icon:hover{
     border-color: rgb(0, 0, 0);
 }
-
+.cat-icon img:hover{
+    transform: scale(1.1);
+}
 header{
     position: sticky;
     top: 0;
