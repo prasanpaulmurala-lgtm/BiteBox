@@ -318,12 +318,62 @@ tbody tr{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: linear-gradient(135,#000, #1c1c1c);
+    background: linear-gradient(135deg, #000, #1c1c1c);
 }
 
 .auth-box{
-
+    width: 320px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 8px 25px rgb(0, 0, 0,0.3);
 }
 .auth-one{
     color: red;
+    font-size: 30px;
+}
+
+.auth-box h2{
+    margin-bottom: 20px;
+    color: #000;
+    font-size: 30px;
+}
+
+.auth-box input{
+    border-radius: 20px;
+    border: 1px solid #ddd;
+    font-size: 20px;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.auth-box button{
+    margin-top: 20px;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    background-color: red;
+    padding: 10px;
+    font-size: 22px;
+    color: white;
+    cursor: pointer;
+}
+
+.auth-box p{
+    margin-top: 20px;
+}
+
+.auth-box a{
+    color: red;
+    text-decoration: none;
+}
+
+.auth-box button:hover{
+    background-color: darkred;
+}
+
+.auth-box input:hover{
+    border-color: red;
 }
