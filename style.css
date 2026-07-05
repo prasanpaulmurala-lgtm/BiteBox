@@ -374,6 +374,6 @@ tbody tr{
     background-color: darkred;
 }
 
-.auth-box input:hover{
+.auth-box input:foucs{
     border-color: red;
 }
