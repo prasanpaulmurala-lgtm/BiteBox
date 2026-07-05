@@ -318,5 +318,12 @@ tbody tr{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(135,#000, #1c1c1c);
+    background-color: linear-gradient(135,#000, #1c1c1c);
+}
+
+.auth-box{
+
+}
+.auth-one{
+    color: red;
 }
