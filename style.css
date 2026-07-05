@@ -312,3 +312,11 @@ tbody tr{
 .total button:hover{
     background-color: darkred;
 }
+
+.auth-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135,#000, #1c1c1c);
+}
