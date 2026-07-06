@@ -5,7 +5,7 @@
     font-family: "Google Sans Flex", sans-serif;
 }
 
-nav div{
+    nav div{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -374,6 +374,6 @@ tbody tr{
     background-color: darkred;
 }
 
-.auth-box input:foucs{
+.auth-box input:focus{
     border-color: red;
 }
