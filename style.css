@@ -64,17 +64,20 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
+
 .hero-section h1{
     font-size: 60px;
 }
+
 .hero-section{
     color: white;
 }
+
 .hero-section p{
     font-size: 30px;
 }
+
 .hero-section button{
     font-size: 20px;
     border-radius: 10px;
@@ -83,16 +86,17 @@ img{
     padding: 10px 20px;
     color: white;
 }
+
 .hero-section button:hover{
     background-color: darkred;
 }
+
 .video-section{
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 50px;
     gap: 40px;
-
 }
 
 .video-text h2{
@@ -102,15 +106,18 @@ img{
 .video-text{
     flex: 1;
 }
+
 .video-text p{
     font-size: 18px;
     color: grey;
 } 
+
 video{
     width: 100%;
     height: 100%;
     border-radius: 10px;
 }
+
 .video-box{
     flex:1;
 }
@@ -138,18 +145,22 @@ video{
     box-shadow: 0px 0px 6px 4px grey;
     border-radius: 10px;
 }
+
 .menu-img{
     width: 100%;
     height: 70%;
     cursor: pointer;
 }
+
 .menu-card h3{
     font-size: 26px;
     margin-top: 10px;
 }
+
 .menu-card p,span{
     font-size: 22px;
 }
+
 .menu-card img{
     width: 100%;
     height: 100%;
@@ -169,6 +180,7 @@ video{
 .menu-card button:hover{
     background-color: darkred;
 }
+
 @media screen {
     .menu-conatiner{
     height: 400px;
@@ -217,20 +229,25 @@ video{
     font-size: 20px;
     cursor: pointer;
 }
+
 .cat-icon p:hover{
     color: red;
 }
+
 .cat-icon:hover{
     border-color: rgb(0, 0, 0);
 }
+
 .cat-icon img:hover{
     transform: scale(1.1);
 }
+
 header{
     position: sticky;
     top: 0;
     z-index: 1000;
 }
+
 table{
     margin-top: 70px;
     justify-self: center;
@@ -238,43 +255,53 @@ table{
     border-collapse: collapse;
     
 }
+
 .radius{
     border-top-left-radius: 10px;
 }
+
 .right{
     border-top-right-radius: 10px;
 }
+
  tr,td, th{
     padding: 20px;
     text-align: center;
 }
+
 thead{
     background-color: red;
     font-size: 22px;
     color: white;
 }
+
 .item{
     display: flex;
      gap: 20px;
 }
+
 .item img{
     width: 80px;
     height: 80px;
     border-radius: 10px;
 }
+
 .cart-img{
     align-self: center;
     text-align: center;
 }
+
 tbody tr{
     border-bottom: 1px solid #ddd;
 }
+
 .button{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
 }
+
 .button button{
     padding: 2px 10px; 
     background-color: red;
@@ -283,6 +310,7 @@ tbody tr{
     border-color: red;
     color: white;
 }
+
 .button button:hover{
     background-color: darkred;
 }
@@ -296,6 +324,7 @@ tbody tr{
     background-color: red;
     color: white;
 }
+
 .remove:hover{
     background-color: darkred;
 }
@@ -303,6 +332,7 @@ tbody tr{
 .total th{
     font-size: 22px;
 }
+
 .total button{
     background-color: red;
     border-color: red;
@@ -312,6 +342,7 @@ tbody tr{
     padding: 10px;
     width: 120px;
 }
+
 .total button:hover{
     background-color: darkred;
 }
@@ -332,6 +363,7 @@ tbody tr{
     text-align: center;
     box-shadow: 0px 8px 25px rgb(0, 0, 0,0.3);
 }
+
 .auth-one{
     color: red;
     font-size: 30px;
@@ -388,6 +420,7 @@ tbody tr{
     background-color: #f8f8f8;
 }
 }
+
 .deal-hero{
     background: linear-gradient(135deg, #000, #1c1c1c);
     height: 200px;
@@ -400,6 +433,7 @@ tbody tr{
     font-size: 40px;
     font-weight: bolder;
 }
+
 .deal-hero p{
     color: white;
     font-size: 19px;
@@ -410,6 +444,7 @@ tbody tr{
     padding: 30px;
     margin-top: 100px;
 }
+
 .section{
     font-size: 30px;
     margin-bottom: 20px;
@@ -431,6 +466,7 @@ tbody tr{
     text-align: center;
     width: 100%;
 }
+
 .combo img{
     width: 100%;
     border-radius: 10px;
@@ -513,6 +549,7 @@ tbody tr{
     font-size: 30px;
     margin-bottom: 20px;
 }
+
 .hotdeal-container{
     display: grid;
     grid-template-columns: repeat(3, 32.5%);
