@@ -1,5 +1,3 @@
-
-
 @media screen {
     *{
     margin: 0;
@@ -7,9 +5,10 @@
     box-sizing: border-box;
     font-family: "Google Sans Flex", sans-serif;
 }
-}
 
-nav div{
+}
+    
+ nav div{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -140,13 +139,6 @@ video{
     line-height: 1.6;
 }
 
-.menu-card{
-    padding: 20px;
-    background-color: #fff;
-    box-shadow: 0px 0px 6px 4px grey;
-    border-radius: 10px;
-}
-
 .menu-img{
     width: 100%;
     height: 70%;
@@ -182,6 +174,10 @@ video{
     background-color: darkred;
 }
 
+.menu-img:hover{
+    transform: scale(1.1);
+    }
+
 @media screen {
     .menu-conatiner{
     height: 400px;
@@ -194,9 +190,12 @@ video{
     text-align: center;
     margin-bottom: 100px;
     }
-    .menu-img:hover{
-         transform: scale(1.1);
-    }
+    .menu-card{
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 6px 4px grey;
+    border-radius: 10px;
+}
     .cat-categories{
     width: 100%;
     display: flex;
