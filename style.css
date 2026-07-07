@@ -90,6 +90,11 @@ img{
     background-color: darkred;
 }
 
+.hero-section a{
+    text-decoration: none;
+    color: white;
+}
+
 .video-section{
     display: flex;
     align-items: center;
