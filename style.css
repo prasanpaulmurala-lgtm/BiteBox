@@ -139,20 +139,6 @@ video{
     line-height: 1.6;
 }
 
-
-
-@media screen {
-    .menu-conatiner{
-    height: 400px;
-    width: 100%;
-     display: grid;
-    grid-template-columns: repeat(4, 400px);
-    gap: 20px;
-    padding: 10px;
-    justify-content: space-evenly;
-    text-align: center;
-    margin-bottom: 100px;
-    }
     .menu-card{
     padding: 20px;
     background-color: #fff;
@@ -197,6 +183,19 @@ video{
 .menu-img:hover{
     transform: scale(1.1);
     }
+
+@media screen {
+    .menu-conatiner{
+    height: 400px;
+    width: 100%;
+     display: grid;
+    grid-template-columns: repeat(4, 400px);
+    gap: 20px;
+    padding: 10px;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-bottom: 100px;
+    }
    
     .cat-categories{
     width: 100%;
@@ -206,7 +205,9 @@ video{
     justify-content: center;
     margin-bottom: 100px;
 }
-   .cat-icon{
+}
+
+.cat-icon{
     width: 100px;
     height: 100px;
     border: 2px solid lightgray;
@@ -240,7 +241,6 @@ video{
 
 .cat-icon img:hover{
     transform: scale(1.1);
-}
 }
 
 header{
