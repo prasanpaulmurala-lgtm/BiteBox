@@ -424,6 +424,12 @@ tbody tr{
     padding: 40px;
     background-color: #f8f8f8;
 }
+
+.deal-conatiner{
+    background-color: #fff;
+    padding: 30px;
+    margin-top: 100px;
+}
 }
 
 .deal-hero{
@@ -442,12 +448,6 @@ tbody tr{
 .deal-hero p{
     color: white;
     font-size: 19px;
-}
-
-.deal-conatiner{
-    background-color: #fff;
-    padding: 30px;
-    margin-top: 100px;
 }
 
 .section{
