@@ -148,8 +148,8 @@ video{
     .menu-conatiner{
     height: 400px;
     width: 80%;
-     display: grid;
-    grid-template-columns: repeat(4, 30%);
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
     gap: 20px;
     padding: 10px;
     justify-content: space-evenly;
@@ -157,7 +157,7 @@ video{
     margin-bottom: 100px;
     }
 
-       .menu-card{
+    .menu-card{
     padding: 20px;
     background-color: #fff;
     box-shadow: 0px 0px 6px 4px grey;
