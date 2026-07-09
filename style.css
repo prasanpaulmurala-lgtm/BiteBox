@@ -149,7 +149,7 @@ video{
     height: 400px;
     width: 80%;
      display: grid;
-    grid-template-columns: repeat(4, 400px);
+    grid-template-columns: repeat(4, 30%);
     gap: 20px;
     padding: 10px;
     justify-content: space-evenly;
