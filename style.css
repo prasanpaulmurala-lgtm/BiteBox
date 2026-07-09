@@ -149,7 +149,7 @@ video{
     height: 400px;
     width: 80%;
     display: grid;
-    grid-template-columns: 350px 350px 350px 350px;
+    grid-template-columns: 30% 30% 30% 30%;
     gap: 30px;
     padding: 10px;
     margin-left: 20px;
