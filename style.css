@@ -144,7 +144,6 @@ video{
 }
 
 
-@media screen {
     .menu-conatiner{
     height: 400px;
     width: 80%;
@@ -209,7 +208,6 @@ video{
     padding: 20px;
     justify-content: center;
     margin-bottom: 100px;
-}
 }
 
 .cat-icon{
@@ -419,7 +417,6 @@ tbody tr{
     border-color: red;
 }
 
-@media screen {
     .bite-deals{
     width: 100%;
     padding: 40px;
@@ -505,7 +502,6 @@ tbody tr{
 
 .combo button:hover{
     background-color: darkred;
-}
 }
 
 .today-container{
