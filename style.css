@@ -145,7 +145,7 @@ video{
 
 
     .menu-conatiner{
-    height: 500px;
+    height: 450px;
     width: 80%;
     display: grid;
     grid-template-columns: 30% 30% 30% 30%;
