@@ -5,8 +5,11 @@
     box-sizing: border-box;
     font-family: "Google Sans Flex", sans-serif;
 }
+body{
+    overflow-x: hidden;
 }
-    
+}
+
  nav div{
     display: flex;
     justify-content: space-between;
@@ -588,4 +591,71 @@ tbody tr{
 
 .green{
     border-top: 7px solid green;
+}
+
+
+footer{
+    background-color: #111;
+    color: #ccc;
+    padding: 40px;
+}
+
+.ft-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+}
+
+.ft-box{
+    color: #fff;
+}
+
+.ft-box ul{
+    display: block;
+    list-style: none;
+}
+
+.ft-box h2,
+.ft-box h3{
+    color: white;
+    margin-bottom: 15px;
+}
+
+.ft-box span{
+    color: red;
+}
+
+.ft-box a{
+    color: #ccc;
+    text-decoration: none;
+}
+.ft-box a:hover{
+    color: red;
+}
+
+.ft-box p{
+    color: #ccc;
+}
+
+.ft-bottom{
+    font-size: 14px;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 30px;
+    border-top: 1px solid #333;
+}
+
+#icon a{
+    font-size: 25px;
+    display: inline-block;
+    padding: 10px;
+    background-color: #222;
+    color: #ccc;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+#icon a:hover{
+    background: red;
+    color: white;
 }
