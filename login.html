@@ -32,14 +32,16 @@
         <div class="auth-box">
             <h2>Login to Bite<span class="auth-one">Box</span></h2>
             <form action="">
-                <input type="email" placeholder="Enter Email" required>
-                <input type="password" placeholder="Enter password" required>
-                <button>Login</button>
+                <input type="email" placeholder="Enter Email" id="email" required>
+                <input type="password" placeholder="Enter password" id="password" required>
+                <button type="button" onclick="login()">Login</button>
             </form>
+            <p id="error" style="color: red;"></p>
             <p><a href="signup.html">Forgot Password</a></p>
             <p>Don't Have an account <a href="signup.html">Signup</a></p>
         </div>
     </section>
     <!-- section ends -->
+     <script src="./script.js"></script>
 </body>
 </html>
