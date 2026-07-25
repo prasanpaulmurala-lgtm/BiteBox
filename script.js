@@ -25,3 +25,11 @@ function togglepassword() {
         passInput.type = "password";
     }
 }
+
+function next(){
+    window.location.href="menu.html";
+}
+
+function page(){
+    window.location.href="cart.html";
+}
