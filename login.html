@@ -32,8 +32,13 @@
         <div class="auth-box">
             <h2>Login to Bite<span class="auth-one">Box</span></h2>
             <form action="">
-                <input type="email" placeholder="Enter Email" id="email" required>
+                <input type="email" placeholder="Enter Email" id="email" required >
+                <div style="position: relative;">
                 <input type="password" placeholder="Enter password" id="password" required>
+                <span onclick="togglepassword()" style="position: absolute; right: 10px; top: 70%; transform: translateY(-50%); cursor: pointer; color: red;">
+                <i class="fa-solid fa-eye"></i>
+                </span>
+                </div>
                 <button type="button" onclick="login()">Login</button>
             </form>
             <p id="error" style="color: red;"></p>
